@@ -158,7 +158,6 @@ int main(int argc,int** argv)
   
   while(cumul < p_H) {
       cumul += histogramme[(int) tau_h];
-      printf("%lf %lf %lf\n", histogramme[(int) tau_h], (int) tau_h, cumul);
       tau_h++;
   }
 
