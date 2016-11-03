@@ -181,7 +181,7 @@ int main(int argc,int** argv)
 
   printf("tau_l = %lf, tau_h = %lf\n", tau_l, tau_h);
 
-  SaveImagePgm("TpIFT6150-2-autocanny", contour, length, width);
+  SaveImagePgm("TpIFT6150-2-cannySemiAuto", contour, length, width);
   
   return 0; 	 
 }
@@ -191,6 +191,7 @@ void follow(int i, int j, int tau_l, float** suppression, float** gradient_angle
     if(visites[i][j])
         return;
     
+    // Le point est considéré comme contour
     contour[i][j] = 255.0;
     visites[i][j] = 1;
 
