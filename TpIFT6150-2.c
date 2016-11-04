@@ -1,6 +1,6 @@
 /*------------------------------------------------------*/
 /* Prog    : TpIFT6150-2.c                              */
-/* Auteur  :                                            */
+/* Auteurs : Mercedes Gauthier, Nicolas Hurtubise       */
 /* Date    :                                            */
 /* version :                                            */ 
 /* langage : C                                          */
